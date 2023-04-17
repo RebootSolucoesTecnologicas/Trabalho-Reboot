@@ -1,0 +1,169 @@
+@font-face {
+    font-family:'lemonmilk';
+    src: url('Fontes/LEMONMILK-Bold.otf') format(opentype);
+}
+
+@font-face {
+    font-family: 'DK Longreach';
+    src: url('Fontes/DK\ Longreach.otf') format(opentype);
+}
+
+/*----- barra de navegacao -----*/
+.navbar {
+    background-color: #700916;
+    transition: 5s;
+}
+
+.navbar a{
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    background-color: #c1272d;
+    border-radius: 10px;
+}
+
+#logo {
+    height: 65px;
+    width: 65px ;
+}
+
+.listra-amarela {
+    height: 8px;
+    background-color:#fec000;
+    
+}
+#nav-font {
+    margin-left: 1000px;
+    font-family: 'DK Longreach';
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#fonte {
+    color: #fec000;
+}
+/*----- slide card -----*/
+.botao {
+    background: #ffffff;
+	color: #700916;
+	border-style: solid;
+	height: 70px;
+	width: 300px;
+	border-radius: 10px;
+    font-family: 'DK Longreach';
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 80vh;
+}
+
+h5 {
+    font-family: 'DK Longreach';
+    text-transform: uppercase;
+}
+
+#h5f {
+    color: #fec000;
+    margin-left: 80vh;
+    font-size: 40px;
+}
+
+.col{
+    padding: 100px;
+}
+
+.card {
+    font-family: 'lemonmilk', cursive;
+    text-transform: uppercase;
+    width: 600px;
+    height: 400px;
+    margin-left: 180px;
+    align-items: right;
+}
+
+#card-title {
+    color: #fec000;
+    text-align: center; 
+    font-size: 30px;
+}
+
+#card-text {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+#botao-card {
+    font-family: 'DK Longreach';
+    background: #700916;
+	color: #fec000;
+	border-style: solid;
+    border-color: #700916;
+	height: 70px;
+	width: 132px;
+	border-radius: 10px;
+    font-size: 22px;
+    margin-left: 220px;
+}
+
+.card-body{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    background-color: #c1272d;
+    font-family: 'lemonmilk';
+    
+}
+
+#img-card {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/*----- rodape -----*/
+#logob {
+    margin-left: 770px;
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.rodas {
+    background-color: #333333;
+}
+
+#listrab {
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+}
+
+.redes-sociais {
+    padding: 20px;
+    margin-left: 700px;
+}
+
+#face {
+    width: 55px;
+    height: 55px;
+}
+
+#whats {
+    width: 55px;
+    height: 55px;
+}
+
+#insta {
+    width: 55px;
+    height: 55px;
+}
+
+#text-final {
+    font-family: 'Montserrat', sans-serif;
+    color: #9b9b9b;
+    margin-left: 400px;
+}
+#part-branc {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 720px;
+}

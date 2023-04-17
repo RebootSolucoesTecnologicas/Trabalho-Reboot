@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'lemonmilk';
+    src: url('Fontes/LEMONMILK-Bold.otf') format(opentype); 
+}
+
+@font-face {
+    font-family: 'DK Longreach';
+    src: url('Fontes/DK\ Longreach.otf') format(opentype);
+}
+
+
+#fonte{
+    color:#fec000;
+    font-family: 'DK Longreach';
+}
+
+
+.navbar {
+    background-color: #700916;
+    transition: 5s;
+}
+
+.navbar a{
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    background-color: #c1272d;
+    border-radius: 10px;
+}
+
+.listra-amarela {
+    height: 8px;
+    background-color:#fec000;
+}
+
+#nav-font {
+    margin-left: 900px;
+    font-family: 'DK Longreach', cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#logo {
+    height: 65px;
+    width: 65px ;
+} 
+
+.card-body{
+    font-family: 'lemonmilk';
+    background-color: #c1272d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+
+#card-title{
+    color: #fec000;
+    font-size: 17px;
+
+}
+
+.card-text{
+    color:bisque;
+    font-size: 10px;
+}
+
+
+#logo {
+    height: 65px;
+    width: 65px ;
+}
+
+/*----- rodape -----*/
+.rodas {
+    margin-top: 40px;
+    background-color: #333333;
+}
+
+#listrab {
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+}
+
+.redes-sociais {
+    padding: 20px;
+    margin-left: 700px;
+}
+
+#face {
+    width: 55px;
+    height: 55px;
+}
+
+#whats {
+    width: 55px;
+    height: 55px;
+}
+
+#insta {
+    width: 55px;
+    height: 55px;
+}
+
+#text-final {
+    font-family: mon
+}
+
+
+#logob {
+    margin-left: 770px;
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+#N01{
+    color: #c1272d;
+    font-family: 'DK Longreach';
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#text-final {
+    font-family: 'Montserrat', sans-serif;
+    color: #9b9b9b;
+    margin-left: 400px;
+}
+
+#part-branc {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 720px;
+}

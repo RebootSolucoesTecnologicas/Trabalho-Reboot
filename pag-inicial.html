@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="CSS/style(pg_inicial).css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--link css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="img/semfundo.png" type="image/png">
+    <title>Rancho Burguer</title>
+</head>
+<body> 
+   <!--link js bootstrap-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!--navbar-bootstrap-->
+    <div class="listra-amarela"></div>
+    <nav class="navbar navbar-expand" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/semfundo.png" alt="Bootstrap" id="logo">
+          </a>
+          <div class="container">
+          <ul class="navbar-nav" id="nav-font">
+            <li class="nav-item"><a class="nav-link" href="pag-inicial.html" id="fonte">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="cardapio.html" id="fonte">Cardápio</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html" id="fonte">Delivery</a></li>
+          </ul>
+          </div>
+        </div>
+    </nav>
+      <!--fim-navbar-bootstrap-->
+
+          <!--início-slideshow-->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="h5f">Faça seu pedido!</h5>
+                  <a href="index.html"><button type="button" class="botao">Clique aqui</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img1.jpg" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="h5f">Faça seu pedido!</h5>
+                  <a href="index.html"><button type="button" class="botao">Clique aqui</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="h5f">Faça seu pedido!</h5>
+                  <a href="index.html"><button type="button" class="botao">Clique aqui</button></a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            <!--fim-slideshow-->
+
+            <!--caixa1-->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="img/cardapio.jpg" class="card-img-top" alt="..." id="img-card">
+                  <div class="card-body">
+                    <h5 id="card-title">Cardápio</h5>
+                    <p id="card-text">que tal dar uma conferida nas delícias que te
+                      aguardam?</p>
+                      <a href="cardapio.html"> <button class="button" id="botao-card">vamos lá!</button> </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="img/cardapio.jpg" class="card-img-top" alt="..." id="img-card">
+                  <div class="card-body">
+                    <h5 id="card-title">delivery</h5>
+                    <p id="card-text">E aí, já se decidiu? então venha fazer o seu pedido,
+                      vai perder tempo?</p>
+                     <a href="index.html"> <button class="button" id="botao-card">agora!</button> </a>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+            <!--footer-->
+          <footer class="rodas">
+                <img src="img/LOGO-BRANCO.png" alt="" id="logob">
+              <img src="img/icons/img-listra.jpg" alt="" id="listrab">
+              <div class="redes-sociais">
+              <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661784632&extra_1=s%7Cc%7C513440386732%7Ce%7Cfacebook%7C&placement=&creative=513440386732&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661784632%26adgroupid%3D63686352403%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001538%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjw8-OhBhB5EiwADyoY1Yo6OcsOZ_sDZqrA70GorLeF5vtjuy3dTkQWzoeUtMS3j5mHPvHnCBoCP-AQAvD_BwE"><img src="img/icons/FB.png" alt="facebook" id="face"></a>
+              <a href="https://www.whatsapp.com/?lang=pt_br"><img src="img/icons/WPP.png" alt="whatsapp" id="whats"></a>
+              <a href=""><img src="img/icons/IG.png" alt="instagram" id="insta"></a>
+            </div>
+            <p id="text-final">Imagens meramente ilustrativas. Rancho burguer, todos os direitos reservados. 
+              Site esenvolvido pela <p id="part-branc">REBOOT SOLUÇÕES.</p></p>
+            </footer>
+          
+</body>
+</html>
